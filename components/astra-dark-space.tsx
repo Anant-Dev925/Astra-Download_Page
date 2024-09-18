@@ -1,10 +1,9 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Download, Smartphone, Video, Zap, Users, Lock, Sparkles, Mail, ChevronDown, Images } from "lucide-react"
+import { Download, Smartphone, Video, Zap, Users, Lock, Sparkles, Mail, ChevronDown} from "lucide-react"
 
 export function AstraDarkSpace() {
   const [activeTab, setActiveTab] = useState("'home'")
